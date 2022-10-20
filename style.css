@@ -1,0 +1,23 @@
+.table-one {
+	font-family: Arial, Helvetica, sans-serif; 
+	width: 100%;
+	border-collapse: collapse;
+}
+.table-one-td{
+	border:1px solid steelblue;
+	text-align: left;
+	padding: 10px;
+}
+.table-one-th{
+	border: 1px solid steelblue;
+	color: aliceblue;
+	text-align: left;
+	background-color: steelblue;
+	padding: 10px;
+}
+.table-one-tr{
+	
+}
+.table-one-tr:nth-child(odd){
+	background-color: skyblue;
+}
